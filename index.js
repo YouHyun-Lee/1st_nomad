@@ -15,4 +15,4 @@ const nicoInfo = {
      }
   ]
 }
-console.log(nicoInfo);
+console.log(nicoInfo.favFood[0].fatty);
