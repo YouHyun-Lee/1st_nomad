@@ -1,5 +1,2 @@
-function sayHello(name, age){
-  console.log('Hello!', name, "you have", age, "years of age.");
-}
-
-sayHello("Nicolas", 15);
+consost title = document.getElementById("title");
+title.innerHTML="Hi! From JS";
