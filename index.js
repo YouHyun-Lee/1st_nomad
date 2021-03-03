@@ -1,3 +1,4 @@
 consost title = document.getElementById("title");
 title.innerHTML="Hi! From JS";
-console.dir(title);
+title.style.color = "red";
+document.tile = "I own you now";
