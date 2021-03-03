@@ -1,7 +1,7 @@
 consost title = document.querySelector("#title");
 
-function handleResize(event){
-  console.log("I have been resized")
+function handleClick(){
+  title.style.color = "red";
 }
 
-window.addEventListener("resize",handleResize(event));
+window.addEventListener("click",handleClick);
