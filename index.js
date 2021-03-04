@@ -17,3 +17,14 @@ function init(){
   title.addEventListener("click", handleClick);
 }
 init();
+
+function handleOffline() {
+  console.log("Bye bye");
+}
+
+function handleOnline(){
+  console.log("Welcome back")
+}
+
+window.addEventListener("offline", handleOffline);
+window.addEventListerner("online", handleOnline);
